@@ -25,12 +25,12 @@ render(){
 console.log(showimage)
 return(
 	<div className="container">
-	<div className="leftImageContainer">
-	{showimage}
-	</div>
-	<div>
-	<img className="rightContainerImage" src={"/images/"+this.state.image}/>
-	</div>
+		<div className="leftImageContainer">
+			{showimage}
+		</div>
+		<div>
+			<img className="rightContainerImage" src={"/images/"+this.state.image}/>
+		</div>
 	</div>
 	)
 
