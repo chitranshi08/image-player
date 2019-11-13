@@ -1,0 +1,17 @@
+.container{
+	display: flex;
+
+}
+
+.leftImageContainer{
+	width: 300px;
+	border :1px solid black;
+	height: 100vh;
+
+}
+img{
+	width: 150px;
+}
+.rightContainerImage{
+	width: 100%
+}
